@@ -1,0 +1,15 @@
+AUTHORS
+ChangeLog
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+joystick_sim/__init__.py
+joystick_sim/joystick.py
+joystick_sim.egg-info/PKG-INFO
+joystick_sim.egg-info/SOURCES.txt
+joystick_sim.egg-info/dependency_links.txt
+joystick_sim.egg-info/not-zip-safe
+joystick_sim.egg-info/pbr.json
+joystick_sim.egg-info/top_level.txt

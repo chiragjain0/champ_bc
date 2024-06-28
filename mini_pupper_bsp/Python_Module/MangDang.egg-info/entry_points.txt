@@ -1,0 +1,3 @@
+[console_scripts]
+calibrate = MangDang.mini_pupper.calibrate:main
+

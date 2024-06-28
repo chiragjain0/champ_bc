@@ -1,0 +1,3 @@
+[console_scripts]
+web-controller = backend.app:main
+

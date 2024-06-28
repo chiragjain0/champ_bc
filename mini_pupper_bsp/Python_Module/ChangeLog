@@ -1,0 +1,105 @@
+CHANGES
+=======
+
+v1.0.2
+------
+
+* added dkms check to rc.local
+* fixing dkms.conf
+* install RPi camara in the base layer
+* Update install.sh
+* updated touch button demo script
+* fixed error when injecting build date ino mini-pupper-release
+* add build date to mini-pupper-release file
+* fixed is-release test and fixed spelling mistake of demo script name
+
+v1.0.1
+------
+
+* display low power icon
+* improved display by removing threading
+* update some document
+* Update readme
+* Update README.md
+* Update README.md
+
+v1.0.0
+------
+
+* fixed syntax error
+* fixing issue 37
+* Add touch test script
+* Update readme
+* Update document files
+* add missing lib for audio test
+* Update esp32-proxy.cpp
+* Optimize MIPI camera test method
+* Optimize MIPI camera test method
+* Fix audio record volume is too small
+* allow reconfiguration
+* Update Python\_Module/MangDang/LCD/ST7789.py
+* Update display.py
+* Update display.py
+* Update Python\_Module/MangDang/mini\_pupper/display.py
+* Change init input parameters
+* Change LCD driver for clear license info
+* fixed path in capability check
+* Update license info
+* Remove ROS-specific descriptions
+* improved installation script
+
+v0.3.2
+------
+
+* added new calibration tool
+* delete error handling function to avoid auto script running impact
+* added shebang to python\_api\_capabilities.py
+* updated mock\_api
+* updated based on feedback from PR
+
+v0.3.1
+------
+
+* ESP32 Firmware : Swap servo ID using CLI
+* BSP:Uart:Disable uart1 (io 14 & 15) and uart 2(io 0 & io 1)
+* BSP:IO\_Config:Remove useless i2c config and add touch key IO into gpio-key driver
+* removed add\_capabilities call
+* fixed .gitignore
+* added audio in/out demo
+* fix if grep & reboot problem
+* fix imgs display problems
+* update for pupper2 camera
+* added capabilities API
+* added simulated ESP32Interface for testing
+* Fix servo rotation direction
+* added ESP32Interface.py to mock\_api
+* fixed Config for testing
+* fixing test procedure
+* Add github template
+* more cleanup related to version string generation
+* fixing Python muldule version string
+* Update python package version
+* Get Python package version from git tag
+* Update README.md
+
+v0.3
+----
+
+* fixing esp32 app version generation
+* provide minimum version in setup.cfg
+* setup version 0.2.0
+
+v0.2
+----
+
+* changed x\_shift and z\_shift to the values in old MangDang code
+* changed setup version from 0.1.0 to 0.1.1
+* migration to ota.mangdang.net and fix network timeout
+* Fix setuptools installation
+
+v0.1
+----
+
+* migration part 2/2
+* migration part 1/2
+* Initial commit
