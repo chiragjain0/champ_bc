@@ -1,0 +1,31 @@
+[3.875s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_driver': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/mini_pupper_driver/build --no-deps symlink_data
+[5.392s] running develop
+[6.153s] running egg_info
+[6.154s] creating mini_pupper_driver.egg-info
+[6.155s] writing mini_pupper_driver.egg-info/PKG-INFO
+[6.156s] writing dependency_links to mini_pupper_driver.egg-info/dependency_links.txt
+[6.156s] writing entry points to mini_pupper_driver.egg-info/entry_points.txt
+[6.157s] writing requirements to mini_pupper_driver.egg-info/requires.txt
+[6.158s] writing top-level names to mini_pupper_driver.egg-info/top_level.txt
+[6.159s] writing manifest file 'mini_pupper_driver.egg-info/SOURCES.txt'
+[6.167s] reading manifest file 'mini_pupper_driver.egg-info/SOURCES.txt'
+[6.170s] writing manifest file 'mini_pupper_driver.egg-info/SOURCES.txt'
+[6.177s] running build_ext
+[6.177s] Creating /home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages/mini-pupper-driver.egg-link (link to .)
+[6.181s] Installing display_interface script to /home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/mini_pupper_driver
+[6.182s] Installing imu_interface script to /home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/mini_pupper_driver
+[6.183s] Installing servo_interface script to /home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/mini_pupper_driver
+[6.185s] 
+[6.185s] Installed /home/ubuntu/ros2_ws/build/mini_pupper_driver
+[6.186s] running symlink_data
+[6.187s] creating /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/ament_index
+[6.187s] creating /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/ament_index/resource_index
+[6.188s] creating /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[6.188s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/resource/mini_pupper_driver -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[6.189s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/package.xml -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver
+[6.189s] creating /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[6.190s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/launch/imu_interface.launch.py -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[6.191s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/launch/servo_interface.launch.py -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[6.192s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/launch/lidar_ld06.launch.py -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[6.193s] symbolically linking /home/ubuntu/ros2_ws/build/mini_pupper_driver/launch/display_interface.launch.py -> /home/ubuntu/ros2_ws/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[6.352s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_driver' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/mini_pupper_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/build/mini_pupper_driver/build --no-deps symlink_data

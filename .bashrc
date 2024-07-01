@@ -116,3 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 alias esp32-cli="screen /dev/ttyUSB0 115200"
+source /opt/ros/humble/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+# export ROS_LOCALHOST_ONLY=1

@@ -1,0 +1,88 @@
+[0.030s] Invoking command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/ldlidar_stl_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.605s] -- Detecting C compiler ABI info
+[0.947s] -- Detecting C compiler ABI info - done
+[0.979s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.980s] -- Detecting C compile features
+[0.982s] -- Detecting C compile features - done
+[0.996s] -- Detecting CXX compiler ABI info
+[1.368s] -- Detecting CXX compiler ABI info - done
+[1.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.398s] -- Detecting CXX compile features
+[1.400s] -- Detecting CXX compile features - done
+[1.424s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.229s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.541s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.785s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.163s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.822s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.842s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.446s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.727s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.291s] -- Looking for pthread.h
+[5.642s] -- Looking for pthread.h - found
+[5.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.003s] -- Found Threads: TRUE  
+[6.872s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.483s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.037s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.103s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.106s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/ldlidar_stl_ros/include;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/core;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/dataprocess;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/filter;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/logger;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/networkcom;/home/ubuntu/ros2_ws/src/ldlidar_stl_ros/ldlidar_driver/include/serialcom
+[8.106s] -- Configured cppcheck exclude dirs and/or files: 
+[8.170s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.171s] -- Configured cpplint exclude dirs and/or files: 
+[8.181s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.199s] -- Added test 'lint_cmake' to check CMake code style
+[8.210s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.274s] -- Added test 'uncrustify' to check C / C++ code style
+[8.274s] -- Configured uncrustify additional arguments: 
+[8.285s] -- Added test 'xmllint' to check XML markup files
+[8.294s] -- Configuring done
+[8.368s] -- Generating done
+[8.376s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/ldlidar_stl_ros2
+[8.421s] Invoked command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/ldlidar_stl_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ldlidar_stl_ros2
+[8.430s] Invoking command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ldlidar_stl_ros2
+[8.645s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/src/demo.cpp.o[0m
+[30.038s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[34.469s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[38.270s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[42.110s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[43.690s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[47.252s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[50.623s] [100%] [32m[1mLinking CXX executable ldlidar_stl_ros2_node[0m
+[52.013s] [100%] Built target ldlidar_stl_ros2_node
+[52.068s] Invoked command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ldlidar_stl_ros2
+[52.326s] Invoking command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ldlidar_stl_ros2
+[52.360s] -- Install configuration: ""
+[52.363s] -- Execute custom install script
+[52.365s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[52.409s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
+[52.443s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[52.477s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py
+[52.511s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
+[52.545s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
+[52.578s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py
+[52.612s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[52.647s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[52.681s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[52.715s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[52.749s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[52.782s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[52.815s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[52.849s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[52.883s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[52.917s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[52.950s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[52.984s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[53.017s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[53.051s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[53.084s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[53.118s] -- Symlinking: /home/ubuntu/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[53.160s] Invoked command in '/home/ubuntu/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ldlidar_stl_ros2

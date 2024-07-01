@@ -1,0 +1,52 @@
+[0.050s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/mini_pupper_bringup
+[0.335s] -- The C compiler identification is GNU 11.4.0
+[0.618s] -- The CXX compiler identification is GNU 11.4.0
+[0.652s] -- Detecting C compiler ABI info
+[1.001s] -- Detecting C compiler ABI info - done
+[1.030s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.031s] -- Detecting C compile features
+[1.033s] -- Detecting C compile features - done
+[1.046s] -- Detecting CXX compiler ABI info
+[1.430s] -- Detecting CXX compiler ABI info - done
+[1.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.462s] -- Detecting CXX compile features
+[1.464s] -- Detecting CXX compile features - done
+[1.492s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.626s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.935s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.523s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.544s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.549s] -- Added test 'lint_cmake' to check CMake code style
+[3.553s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.564s] -- Added test 'xmllint' to check XML markup files
+[3.574s] -- Configuring done
+[3.597s] -- Generating done
+[3.602s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/mini_pupper_bringup
+[3.625s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/mini_pupper_ros/mini_pupper_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/mini_pupper_bringup
+[3.633s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/mini_pupper_bringup
+[3.792s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/mini_pupper_bringup
+[3.902s] Invoking command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/mini_pupper_bringup
+[3.930s] -- Install configuration: ""
+[3.932s] -- Execute custom install script
+[3.935s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/launch/bringup.launch.py
+[3.971s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/launch/hardware_interface.launch.py
+[4.010s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/launch/rviz.launch.py
+[4.047s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/config/mini_pupper.yaml
+[4.083s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/config/mini_pupper_2.yaml
+[4.120s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/ament_index/resource_index/package_run_dependencies/mini_pupper_bringup
+[4.156s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/ament_index/resource_index/parent_prefix_path/mini_pupper_bringup
+[4.195s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/environment/ament_prefix_path.sh
+[4.232s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/environment/ament_prefix_path.dsv
+[4.267s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/environment/path.sh
+[4.303s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/environment/path.dsv
+[4.339s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/local_setup.bash
+[4.374s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/local_setup.sh
+[4.413s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/local_setup.zsh
+[4.468s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/local_setup.dsv
+[4.508s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/package.dsv
+[4.544s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/ament_index/resource_index/packages/mini_pupper_bringup
+[4.583s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/cmake/mini_pupper_bringupConfig.cmake
+[4.618s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/cmake/mini_pupper_bringupConfig-version.cmake
+[4.657s] -- Symlinking: /home/ubuntu/ros2_ws/install/mini_pupper_bringup/share/mini_pupper_bringup/package.xml
+[4.701s] Invoked command in '/home/ubuntu/ros2_ws/build/mini_pupper_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/mini_pupper_bringup

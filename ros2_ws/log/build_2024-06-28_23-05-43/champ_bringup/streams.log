@@ -1,0 +1,78 @@
+[0.084s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/champ/champ/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/champ_bringup
+[0.876s] -- The C compiler identification is GNU 11.4.0
+[1.187s] -- The CXX compiler identification is GNU 11.4.0
+[1.233s] -- Detecting C compiler ABI info
+[1.600s] -- Detecting C compiler ABI info - done
+[1.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.630s] -- Detecting C compile features
+[1.634s] -- Detecting C compile features - done
+[1.650s] -- Detecting CXX compiler ABI info
+[2.055s] -- Detecting CXX compiler ABI info - done
+[2.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.085s] -- Detecting CXX compile features
+[2.087s] -- Detecting CXX compile features - done
+[2.144s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.987s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.344s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.512s] -- Configuring done
+[4.539s] -- Generating done
+[4.545s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/champ_bringup
+[4.565s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/champ/champ/champ_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/champ_bringup
+[4.574s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_bringup
+[4.814s] Built target ament_cmake_python_symlink_champ_bringup
+[6.065s] running egg_info
+[6.067s] creating champ_bringup.egg-info
+[6.068s] writing champ_bringup.egg-info/PKG-INFO
+[6.069s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[6.070s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[6.071s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[6.080s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[6.083s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[6.221s] Built target ament_cmake_python_build_champ_bringup_egg
+[6.264s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/champ_bringup
+[6.383s] Invoking command in '/home/ubuntu/ros2_ws/build/champ_bringup': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_bringup
+[6.411s] -- Install configuration: ""
+[6.412s] -- Execute custom install script
+[6.419s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[6.459s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[6.494s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[6.533s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[6.573s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[6.612s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[6.652s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[6.692s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[6.730s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[6.770s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[6.809s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[6.845s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[6.883s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[6.923s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[6.958s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[6.994s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[7.030s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[7.067s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[7.106s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.141s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.177s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[7.215s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[7.250s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[7.287s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[7.324s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[7.361s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[7.400s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[7.435s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[7.471s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.sh
+[7.510s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[7.550s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.bash
+[7.588s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.sh
+[7.624s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[7.660s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[7.696s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/package.dsv
+[7.751s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[7.791s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[7.830s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[7.870s] -- Symlinking: /home/ubuntu/ros2_ws/install/champ_bringup/share/champ_bringup/package.xml
+[8.083s] Listing '/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[8.084s] Compiling '/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py'...
+[8.085s] Compiling '/home/ubuntu/ros2_ws/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py'...
+[8.118s] Invoked command in '/home/ubuntu/ros2_ws/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/champ_base:/home/ubuntu/ros2_ws/install/champ_msgs:/home/ubuntu/ros2_ws/install/champ_description:/home/ubuntu/ros2_ws/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/champ_base/lib:/home/ubuntu/ros2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/ubuntu/ros2_ws/install/champ_base/bin:${PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/champ_bringup

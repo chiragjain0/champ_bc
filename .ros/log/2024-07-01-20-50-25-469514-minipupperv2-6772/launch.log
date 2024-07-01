@@ -1,0 +1,3 @@
+1719867025.4726863 [INFO] [launch]: All log files can be found below /home/ubuntu/.ros/log/2024-07-01-20-50-25-469514-minipupperv2-6772
+1719867025.4735177 [INFO] [launch]: Default logging verbosity is set to INFO
+1719867030.4331338 [ERROR] [launch]: Caught exception in launch (see debug for traceback): invalid syntax (<string>, line 1)
