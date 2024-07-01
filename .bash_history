@@ -151,3 +151,44 @@ ros2 launch mini_pupper_bringup bringup.launch.py
 sudo apt remove ~nros-humble-* && sudo apt autoremove
 sudo rm /etc/apt/sources.list.d/ros2.list
 sudo shutdown -h now
+ls
+ls
+export | grep "ROS_DOMAIN_ID"
+export ROS_DOMAIN_ID=42
+# Terminal 1 (ssh to real mini pupper)
+ros2 node list
+. ~/ros2_ws/install/setup.bash
+ros2 launch mini_pupper_bringup bringup.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 launch mini_pupper_bringup bringup.launch.py
+git add .
+cd ros2_ws/src/champ/champ
+rm -rf .git
+cd ~
+cd ros2_ws/src/champ/champ_teleop
+rm -rf .git
+cd ~
+cd ros2_ws/src/ldlidar_stl_ros
+rm -rf .git
+cd ~
+cd ros2_ws/src/mini_pupper_ros
+rm -rf .git
+cd ~
+git add .
+git add ros2_ws/src/champ/champ_teleop
+git reset
+git add .
+git commit -m "stuff"
+git push
+ros2 launch mini_pupper_bringup bringup.launch.py
+. ~/ros2_ws/install/setup.bash
+ros2 launch mini_pupper_bringup bringup.launch.py
+cd ros2_ws
+ls
+cd src
+ls
+cd mini_pupper_ros/
+ls
+cd ~
+sudo nano ~/.bashrc
+sudo shutdown -h now
